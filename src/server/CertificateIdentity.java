@@ -9,9 +9,16 @@ public class CertificateIdentity {
 		this.CN = CN;
 	}
 	
+	public String getCN(){
+		return OU;
+	}
 	public String getOU(){
 		return OU;
 	}
+	public String getO(){
+		return OU;
+	}
+
 	
 	public boolean hasReadAccess(Journal j){
 		if(this.O.equals("Patient")){

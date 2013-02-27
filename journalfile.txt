@@ -1,4 +1,6 @@
-{"id":1,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"}
+{"id":1,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"finish him!","division_id":"divisionA"}
 {"id":2,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"}
 {"id":3,"doctor_id":"doctorA","nurse_id":"bla","patient_id":"bla","journaltext":"Farhad er fest","division_id":"divisionA"}
 {"id":4,"doctor_id":"doctorA","nurse_id":"asfnjasdf","patient_id":"wef","journaltext":"wef","division_id":"divisionA"}
+{"id":5,"doctor_id":"doctorA","nurse_id":"bli","patient_id":"asdn","journaltext":"dsfiinf","division_id":"divisionA"}
+{"id":6,"doctor_id":"doctorA","nurse_id":"eva","patient_id":"Farhad","journaltext":"Besatt av getter","division_id":"divisionA"}
