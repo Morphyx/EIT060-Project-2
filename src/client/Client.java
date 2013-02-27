@@ -8,7 +8,7 @@ import shared.keystoreHandler;
 
 public class Client extends Thread{
 	public static void main(String[]args){
-		Client client = new Client("localhost", 9999, "agentA", "agentApass");
+		Client client = new Client("localhost", 9999, "nurseA", "nurseA");
 		client.connect();
 	}
 
