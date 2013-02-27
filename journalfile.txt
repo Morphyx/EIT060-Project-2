@@ -1,8 +1,4 @@
-{"id":0,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":1,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":2,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":3,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":4,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":5,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":6,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
-{"id":7,"created_doctor_id":"asd","doctor_id":"asdfsd","nurse_id":"asdf","patient_id":"sdf","journaltext":"asdf"}
+{"id":1,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"}
+{"id":2,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"}
+{"id":3,"doctor_id":"doctorA","nurse_id":"bla","patient_id":"bla","journaltext":"Farhad er fest","division_id":"divisionA"}
+{"id":4,"doctor_id":"doctorA","nurse_id":"asfnjasdf","patient_id":"wef","journaltext":"wef","division_id":"divisionA"}
