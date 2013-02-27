@@ -1,0 +1,38 @@
+2013.02.27 - 19:40:49: Start
+2013.02.27 - 19:40:49: reading journallist from file
+2013.02.27 - 19:40:49: waiting for client to connect...
+2013.02.27 - 19:42:31: client connected: CN=doctorA, OU=divisionA, O=Doctor, L=Lund, ST=Skane, C=SE
+2013.02.27 - 19:42:31: Server up and running!
+2013.02.27 - 19:43:05: recieved request from client: 0
+2013.02.27 - 19:43:05: recieved INDEX request, returning 5 journals available to the user
+2013.02.27 - 19:43:05: Send to client: [{"id":1,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"},{"id":2,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"},{"id":3,"doctor_id":"doctorA","nurse_id":"bla","patient_id":"bla","journaltext":"Farhad er fest","division_id":"divisionA"},{"id":4,"doctor_id":"doctorA","nurse_id":"asfnjasdf","patient_id":"wef","journaltext":"wef","division_id":"divisionA"},{"id":5,"doctor_id":"doctorA","nurse_id":"bli","patient_id":"asdn","journaltext":"dsfiinf","division_id":"divisionA"}]
+2013.02.27 - 19:43:25: recieved request from client: 1
+2013.02.27 - 19:44:10: recieved journal from client: {"id":-1,"doctor_id":"doctorA","nurse_id":"eva","patient_id":"Farhad","journaltext":"Besatt av getter"}
+2013.02.27 - 19:44:10: getting new journalid: 6
+2013.02.27 - 19:44:10: saving new journalid to properties file...
+2013.02.27 - 19:44:10: saving journallist to file...
+2013.02.27 - 19:44:10: saving journallist to file...
+2013.02.27 - 19:44:10: recieved CREATE request, create succeeded with the following journal: {"id":6,"doctor_id":"doctorA","nurse_id":"eva","patient_id":"Farhad","journaltext":"Besatt av getter","division_id":"divisionA"}
+2013.02.27 - 19:44:10: Send to client: Successfully created journal with id: 6
+2013.02.27 - 19:45:58: recieved request from client: 2
+2013.02.27 - 19:46:01: recieved journal from client: {"id":2}
+2013.02.27 - 19:46:01: recieved SHOW request, show succeeded for journal with id: 2
+2013.02.27 - 19:46:01: Send to client: {"id":2,"doctor_id":"doctorA","nurse_id":"nurseA","patient_id":"patientA","journaltext":"HEj","division_id":"divisionA"}
+2013.02.27 - 19:47:04: recieved request from client: 3
+2013.02.27 - 19:47:04: recieved journal from client: {"id":1,"journaltext":"finish him!"}
+2013.02.27 - 19:47:04: saving journallist to file...
+2013.02.27 - 19:47:04: recieved UPDATE request, update succeeded for journal: {"id":1,"journaltext":"finish him!"}
+2013.02.27 - 19:47:04: Send to client: suucessfully updated journal
+2013.02.27 - 19:48:01: recieved request from client: 4
+2013.02.27 - 19:48:01: recieved journal from client: {"id":2}
+2013.02.27 - 19:48:01: recieved DESTROY request, access failed for journal with id: 2
+2013.02.27 - 19:48:01: Send to client: no deleteaccess for journal with id: 2
+2013.02.27 - 19:48:21: recieved request from client: 4
+2013.02.27 - 19:48:21: recieved journal from client: {"id":13213213}
+2013.02.27 - 19:48:21: recieved DESTROY request, no journal found with id: 13213213
+2013.02.27 - 19:48:21: Send to client: no deleteaccess for journal with id: 13213213
+2013.02.27 - 19:48:34: recieved request from client: 5
+2013.02.27 - 19:48:34: recieved journal from client: 
+2013.02.27 - 19:48:34: user logged off
+2013.02.27 - 19:48:34: closing connection
+2013.02.27 - 19:48:34: waiting for client to connect...
